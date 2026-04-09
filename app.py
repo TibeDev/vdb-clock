@@ -108,10 +108,10 @@ if __name__ == "__main__":
     os.system('cls' if os.name == 'nt' else 'clear')
     try:
         initial = get_clock() + f"\n\n//MEM {get_mem_usage()}    //CPU {get_cpu_usage()}"
-        with Live(Text(center_block(initial)), refresh_per_second=1) as live:
+        with Live(Text.from_markup(center_block(initial)), refresh_per_second=1) as live:
             while True:
                 content = get_clock() + f"\n\n//MEM {get_mem_usage()}    //CPU {get_cpu_usage()}"
-                live.update(Text(center_block(content)))
+                live.update(Text.from_markup(center_block(content)))
                 time.sleep(1)
                 
     except KeyboardInterrupt:
