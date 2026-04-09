@@ -111,6 +111,7 @@ class SystemTui(App):
                 Center(
                     Label("", id="clock"),
                 ),
+                Label(""),
                 Horizontal(
                     Label("//MEM ", classes="comment"),
                     Label("", id="memory"),
