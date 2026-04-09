@@ -11,8 +11,7 @@ sudo cp "$START_DIR/requirements.txt" "$DEST_DIR/"
 
 if command -v apt &> /dev/null; then
     sudo apt install -y python3-venv
-
-@@ -9,8 +17,8 @@ elif command -v pacman &> /dev/null; then
+elif command -v pacman &> /dev/null; then
     sudo pacman -S --noconfirm python-virtualenv
 fi
 
