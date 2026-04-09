@@ -4,6 +4,7 @@
 
 A TUI **(Text-based User Interface)** clock with memory usage and cpu usage.
 <br>
+Inspired by **[tty-clock](https://github.com/xorg62/tty-clock)**
 
 # </How to install?>
 
