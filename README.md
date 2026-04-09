@@ -27,11 +27,3 @@ vdb-clock
 I'm too lazy to add a Windows/MacOs install script, so you're on your own. :)
 <br>
 But normally the vdb-clock should work on those platforms as well.
-
-# &lt;/IMPORTANT&gt;
-There is one thing I didn't think about is if your terminal has a different bg color then mine.<br>
-So if you try this out with a terminal with another color it will not look good. It will have this black box inside of the terminal!
-
-<br>
-
-**You can ofcourse fix this by just changing the css in the app.py file and reinstalling it!**
