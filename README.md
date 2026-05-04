@@ -16,6 +16,11 @@ Open a terminal in the folder and run this command:
 chmod +x install.sh
 ./install.sh
 ```
+Then run this command to make it executable:
+
+```bash
+sudo chmod +x /usr/local/bin/vdb-clock
+```
 
 After that you can run "vdb-clock" in the terminal.
 
