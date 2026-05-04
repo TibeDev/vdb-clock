@@ -9,8 +9,13 @@ Inspired by **[tty-clock](https://github.com/xorg62/tty-clock)**
 # </How to install?>
 
 ## //Linux
+First clone the repository:
+```bash
+git clone https://github.com/TibeDev/vdb-clock.git
+cd vdb-clock
+```
 
-Open a terminal in the folder and run this command:
+Then install it via the install script:
 
 ```bash
 chmod +x install.sh
